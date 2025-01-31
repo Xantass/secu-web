@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: '',
-  basePath: '',
+  assetPrefix: '/secu-web',
+  basePath: '/secu-web',
   output: 'export'
 };
 
