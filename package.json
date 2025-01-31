@@ -1,7 +1,6 @@
 {
   "name": "secu-web",
   "version": "0.1.0",
-  "homepage": "https://Xantass.github.io/secu-web",
   "private": true,
   "scripts": {
     "dev": "next dev",
