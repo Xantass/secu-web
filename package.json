@@ -8,9 +8,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npm run build && touch ./out/.nojekyll && gh-pages -d out"
+    "deploy": "dotenv -e .env.prod npm run build && touch ./out/.nojekyll && gh-pages -d out"
   },
   "dependencies": {
+    "dotenv-cli": "^8.0.0",
     "gh-pages": "^6.3.0",
     "next": "15.1.6",
     "react": "^19.0.0",
